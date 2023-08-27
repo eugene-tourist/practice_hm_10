@@ -1,0 +1,146 @@
+/* &display=swap&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap");
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    font-size: 16px;
+    /* по умолчанию */
+}
+
+body {
+    line-height: 1;
+    background-color: grey;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+/* ------------------------------ */
+
+.main {
+    padding: 100px 0;
+}
+
+.our-impact {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 0;
+    color: #FFF;
+    background: url(../img/our_impact/blob.png) right top no-repeat, #29C3BE;
+}
+
+.our-impact__container {
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 112px 0 213px 0;
+}
+
+.our-impact__content {
+    margin-right: 82px;
+    max-width: 411px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 75px;
+}
+
+.our-impact__sub-title {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    background: url(../img/our_impact/icon.svg) 0 -2px no-repeat;
+    padding-left: 34px;
+    margin-bottom: 32px;
+}
+
+.our-impact__title {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.16;
+
+}
+
+.our-impact__image {
+    border-radius: 30px;
+    margin-top: -200px;
+}
+
+.our-impact__items {
+}
+
+.item {
+    display: inline-block;
+    width: 237px;
+}
+
+.item:not(:last-child) {
+    margin-right: 24px;
+}
+
+.item__image {
+    margin-right: 11px;
+}
+
+.item__body {
+    display: inline-block;
+}
+
+.item__title {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.16;
+}
+
+.item__text {
+    color: #5D62B5;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+}
